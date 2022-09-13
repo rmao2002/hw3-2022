@@ -75,9 +75,13 @@ footer {
     background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,255,1) 25%, rgba(0,102,255,1) 75%, rgba(0,0,0,1) 100%);
     border-style: solid;
     border-width: 5px;
+
     text-align: right;
     font-size: 20px;
-    padding-top: 15px;
-    padding-right: 15px;
-    padding-bottom: 15px;
+    padding: 15px 15px 0px 15px;
+}
+footer p {
+    text-align: right;
+    font-size: 20px;
+    padding: 15px 15px 15px 0px;
 }
